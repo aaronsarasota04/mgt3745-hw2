@@ -26,12 +26,12 @@
 
 ---
 
-## User Profiles\
+## User Profiles
 
 ### Profile A
 - **Situation: [known] The interviewee was applying for full-time software engineering positions. He initially applied for a Software Engineer I position and ultimately received an offer for a Software Engineer II position because of a previous relationship with the recruiter.**
 - **Job they are hiring for: [known] Determine which software engineering opportunities to pursue and how to present his qualifications when applying for positions**
-- **What they do today instead [known] He relied on personal projects and his existing experience when applying for positions. He also learned through his experience that GPA was less important than projects and relevant work experience.**\
+- **What they do today instead [known] He relied on personal projects and his existing experience when applying for positions. He also learned through his experience that GPA was less important than projects and relevant work experience.**
 - **Why today's approach is unsatisfying: He did not have previous internship experience, which meant he had less traditional work experience to demonstrate to employers during the job search.**
 
 ### Profile B
