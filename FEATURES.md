@@ -1,18 +1,8 @@
 # FEATURES.md
 
-**Name:**
-**Date:**
+**Name: Aaron Rahim*
+**Date: 09/10/2026**
 **Assignment:** HW2, MGT 3745 O
-
-> Replace every instruction block with your own writing. Delete instructions as you go.
-> Companion file: `USERS.md` (interviews, job statements, user profiles).
-> Both files are Context Scaffold artifacts. You carry them forward all semester.
-> Standard for this document: could two competent people disagree about whether a
-> statement was met? If yes, it is not yet a specification.
->
-> Aim for the **right altitude**: specific enough to guide behavior, flexible enough to
-> leave room for judgment. Hardcoding every branch is brittle. Vague guidance gives no
-> signal. Both fail.
 
 ---
 
@@ -39,80 +29,63 @@
 ## 1. Context
 `part of Specification Quality, 30 pts total`
 
-> One paragraph. The job: who, in what situation, wanting what.
-
-*(your context here)*
+The primary user is a senior Computer Science student at Georgia Tech who is actively pursuing software engineering or data engineering roles across the United States. They are open to relocation anywhere in the country and expect to graduate in December 2026, creating a narrow window to assess opportunities, decide which applications are worth submitting, and prioritize roles that align with their background, goals, and timing. In this context, the user wants a practical way to evaluate whether a role is worth pursuing even when the posted requirements are only a partial match, while also discovering openings that may not appear on major job boards.
 
 ---
 
 ## 2. Users
 
-> Who this is for. Point back to the profiles in USERS.md rather than repeating them.
-
-*(your users here)*
+This feature is designed for early-career technical job seekers who are navigating competitive hiring pipelines and making strategic decisions about where to apply. It is informed by the profiles in [USERS.md](USERS.md), especially the candidate who relied on portfolio work and network connections instead of traditional internship experience, and the recruiter who evaluates whether a candidate should advance even when they do not match every listed requirement exactly.
 
 ---
 
 ## 3. Scope
 
 **This does:**
--
--
--
+- Help a senior Computer Science student evaluate whether a software or data engineering role is worth pursuing even when the posted requirements are only a partial match.
+- Identify job opportunities through multiple sources beyond major job boards, including company career pages, alumni and recruiter connections, and other less visible channels.
+- Support strategic application decisions by helping the user weigh fit, timing, and evidence such as projects, relevant experience, and networking rather than rigidly treating job descriptions as checklists.
 
 **This deliberately does not do:**
--
--
-
-> Non-goals are what make the rest of this document checkable. A spec with no
-> non-goals cannot be violated, which means it cannot govern anything.
+- Guarantee an interview, offer, or job placement simply because a user follows the suggested strategies.
+- Replace the user’s judgment, portfolio work, networking, or direct outreach, all of which remain necessary parts of an effective job search.
+- Treat every job description as equally relevant or every role as a good fit; the feature only helps the user assess opportunities more intelligently and efficiently.
 
 ---
 
 ## 4. Behavior
 
-> What happens, in what order, under what conditions. The bulk of the document.
-> Write statements a stranger could follow without asking you what you meant.
-
-*(your behavior spec here)*
+- The user evaluates a software or data engineering role by comparing the role’s stated requirements to their own background, including coursework, projects, internship experience, and job-relevant skills.
+- When a role does not match every requirement exactly, the user can still assess whether the role is worth pursuing if the core responsibilities, toolset, and growth potential are aligned with their profile and timing.
+- The user searches for opportunities across more than one channel, including major job boards, company career pages, alumni networks, recruiter outreach, and other less visible sources, rather than relying on a single platform.
+- The user prioritizes evidence of capability over strict checklist compliance, such as personal projects, GitHub work, portfolio quality, and prior experience that demonstrates readiness for the role.
+- The user applies strategically by targeting roles where they have a credible match, a realistic path to the next stage, and a reasonable chance of being considered despite missing one or more ideal-candidate requirements.
 
 ---
 
 ## 5. Constraints
 
-> What must hold regardless of design: platform, data, privacy, timing, budget.
-
-*(your constraints here)*
+- The feature is intended for a student who is actively pursuing technical roles during the final semester before graduation, when the job search is time-sensitive and application volume matters.
+- The user must be able to evaluate opportunities using information that is publicly available or provided by the user themselves, such as resume details, project evidence, and job descriptions.
+- No private or sensitive candidate data should be required beyond what the user voluntarily provides, and the tool should not assume access to employer-side hiring records or internal recruiting systems.
+- The feature must function across common job-search environments, including public job boards, recruiter outreach, and company career sites, rather than depending on a single platform.
+- The user is expected to invest time in building a credible portfolio, refining application materials, and maintaining outreach effort; the feature supports decision-making but does not eliminate the work required to secure interviews.
 
 ---
 
 ## 6. Acceptance
 
-> How a reader would know the thing works. Write these in **EARS notation**.
->
-> - Event-driven: `WHEN [trigger], THE SYSTEM SHALL [response]`
-> - Unwanted:     `IF [condition], THEN THE SYSTEM SHALL [response]`
-> - Ubiquitous:   `THE SYSTEM SHALL [response]`
-> - State-driven: `WHILE [state], THE SYSTEM SHALL [response]`
-> - Optional:     `WHERE [feature present], THE SYSTEM SHALL [response]`
->
-> Vague: "The app should be fast."
-> EARS:  "WHEN an entry is saved, THE SYSTEM SHALL display it within 2 seconds."
-
-- [ ] WHEN ..., THE SYSTEM SHALL ...
-- [ ] IF ..., THEN THE SYSTEM SHALL ...
-- [ ] 
+- WHEN the user reviews a job posting, THE SYSTEM SHALL compare the role’s requirements to the user’s skills, projects, and relevant experience.
+- IF the role is only a partial match, THEN THE SYSTEM SHALL flag it as a potential fit and show which qualifications are missing or weak.
+- THE SYSTEM SHALL evaluate opportunities from multiple sources, including job boards, company career pages, and networking channels, before recommending a role.
+- WHILE the user is comparing roles, THE SYSTEM SHALL display a fit summary that separates must-have requirements from preferred qualifications.
+- WHERE recruiter contact information is available, THE SYSTEM SHALL suggest a follow-up message based on the user’s qualifications and role fit.
 
 ---
 
 ## Handoff Test
-`10 pts`
 
-> Two or three sentences. If you handed this to a competent stranger tomorrow, what
-> would they still have to ask you before they could start?
-> Every spec has gaps. Claiming none scores zero.
-
-*(your handoff test here)*
+*A competent stranger would still need to know which evidence sources are considered strong enough to justify applying to a role, and how the system should weigh factors such as project quality, recruiter connections, and experience gaps. This specification is based on two interviews and should be treated as a practical starting point rather than a fully validated model of hiring behavior.*
 
 ---
 
@@ -120,4 +93,4 @@
 
 > What you used AI for on this assignment, if anything. Write "none" if you did not use any.
 
-*(your note here)*
+*AI was used to polish responses which I initially drafted responses for. Final output was reviewed by me to ensure it answers the question*
