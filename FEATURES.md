@@ -1,75 +1,66 @@
 # FEATURES.md
 
-**Name: Aaron Rahim*
+**Name: Aaron Rahim**
 **Date: 09/10/2026**
 **Assignment:** HW2, MGT 3745 O
 
 ---
 
 ## Kano-Classified Feature List
-`15 pts`
 
-> At least six candidate features. Classify each as Must-be, Performance, Attractive,
-> Indifferent, or Reverse, with a one-line reason drawn from your research.
-> An honest "Indifferent" is worth more than a flattering "Attractive."
-
-**Classification date:**
+**Classification date:** 09/10/2026
 
 | # | Feature | Kano class | Reason from research |
 |---|---------|-----------|----------------------|
-| 1 |         |           |                      |
-| 2 |         |           |                      |
-| 3 |         |           |                      |
-| 4 |         |           |                      |
-| 5 |         |           |                      |
-| 6 |         |           |                      |
+| 1 | Job is tech oriented | Must-be | The main need is a software/data engineering role, not a non-technical job. |
+| 2 | Job requirements | Performance | Closer alignment between requirements and skills increases value; job descriptions are often preferred profiles, not strict checklists. |
+| 3 | Recruiter/Hiring Manager information | Attractive | Helpful for outreach and visibility, but not required to evaluate a role. |
+| 4 | Learning all technologies for a single job requirement | Indifferent | Candidates do not need to match every listed technology; partial fit can still be relevant. |
+| 5 | Job offer | Must-be | Getting interviews and offers is the core purpose of the feature. |
+| 6 | Salary | Performance | Better compensation makes a role more attractive, but the opportunity may still be worth pursuing if the fit is strong. |
 
 ---
 
 ## 1. Context
-`part of Specification Quality, 30 pts total`
 
-The primary user is a senior Computer Science student at Georgia Tech who is actively pursuing software engineering or data engineering roles across the United States. They are open to relocation anywhere in the country and expect to graduate in December 2026, creating a narrow window to assess opportunities, decide which applications are worth submitting, and prioritize roles that align with their background, goals, and timing. In this context, the user wants a practical way to evaluate whether a role is worth pursuing even when the posted requirements are only a partial match, while also discovering openings that may not appear on major job boards.
+The primary user is a senior Computer Science student at Georgia Tech pursuing software engineering or data engineering roles across the United States. They are open to relocation and expect to graduate in December 2026, so they need to decide quickly which opportunities are worth applying to and which ones are likely to be a poor fit. The core challenge is evaluating whether a role is still worth pursuing when the posted requirements are only a partial match, while also finding openings that may not appear on major job boards.
 
 ---
 
 ## 2. Users
 
-This feature is designed for early-career technical job seekers who are navigating competitive hiring pipelines and making strategic decisions about where to apply. It is informed by the profiles in [USERS.md](USERS.md), especially the candidate who relied on portfolio work and network connections instead of traditional internship experience, and the recruiter who evaluates whether a candidate should advance even when they do not match every listed requirement exactly.
+This feature is designed for early-career technical job seekers navigating competitive hiring pipelines. It reflects the experiences of a candidate who relied on projects and networking instead of internship experience, and a recruiter who evaluates candidates based on potential and fit rather than strict checklist compliance.
 
 ---
 
 ## 3. Scope
 
 **This does:**
-- Help a senior Computer Science student evaluate whether a software or data engineering role is worth pursuing even when the posted requirements are only a partial match.
-- Identify job opportunities through multiple sources beyond major job boards, including company career pages, alumni and recruiter connections, and other less visible channels.
-- Support strategic application decisions by helping the user weigh fit, timing, and evidence such as projects, relevant experience, and networking rather than rigidly treating job descriptions as checklists.
+- Help the user decide whether a role is worth pursuing when the requirements are only a partial match.
+- Find opportunities beyond major job boards, including company pages, alumni, and recruiter channels.
+- Support decisions using projects, relevant experience, and network signals instead of rigid checklist thinking.
 
 **This deliberately does not do:**
-- Guarantee an interview, offer, or job placement simply because a user follows the suggested strategies.
-- Replace the user’s judgment, portfolio work, networking, or direct outreach, all of which remain necessary parts of an effective job search.
-- Treat every job description as equally relevant or every role as a good fit; the feature only helps the user assess opportunities more intelligently and efficiently.
+- Guarantee interviews or offers.
+- Replace networking, portfolio work, or direct outreach.
+- Treat every job description as equally relevant or every role as a good fit.
 
 ---
 
 ## 4. Behavior
 
-- The user evaluates a software or data engineering role by comparing the role’s stated requirements to their own background, including coursework, projects, internship experience, and job-relevant skills.
-- When a role does not match every requirement exactly, the user can still assess whether the role is worth pursuing if the core responsibilities, toolset, and growth potential are aligned with their profile and timing.
-- The user searches for opportunities across more than one channel, including major job boards, company career pages, alumni networks, recruiter outreach, and other less visible sources, rather than relying on a single platform.
-- The user prioritizes evidence of capability over strict checklist compliance, such as personal projects, GitHub work, portfolio quality, and prior experience that demonstrates readiness for the role.
-- The user applies strategically by targeting roles where they have a credible match, a realistic path to the next stage, and a reasonable chance of being considered despite missing one or more ideal-candidate requirements.
+- The user compares a role’s requirements against their background, including coursework, projects, relevant experience, and job-specific skills.
+- If a role is not an exact match, the user can still assess whether it is worth pursuing when the core responsibilities, toolset, and growth potential are aligned.
+- The user searches across multiple channels, not just major job boards, including company career pages, alumni networks, recruiter outreach, and other less visible sources.
 
 ---
 
 ## 5. Constraints
 
-- The feature is intended for a student who is actively pursuing technical roles during the final semester before graduation, when the job search is time-sensitive and application volume matters.
-- The user must be able to evaluate opportunities using information that is publicly available or provided by the user themselves, such as resume details, project evidence, and job descriptions.
-- No private or sensitive candidate data should be required beyond what the user voluntarily provides, and the tool should not assume access to employer-side hiring records or internal recruiting systems.
-- The feature must function across common job-search environments, including public job boards, recruiter outreach, and company career sites, rather than depending on a single platform.
-- The user is expected to invest time in building a credible portfolio, refining application materials, and maintaining outreach effort; the feature supports decision-making but does not eliminate the work required to secure interviews.
+- The feature is for a student in the final semester before graduation, when application timing and volume matter.
+- It should rely only on user-provided or public information, such as resume details, projects, and job descriptions.
+- It should not require private employer data or internal hiring records.
+- It must support multiple job-search channels rather than depending on one platform.
 
 ---
 
@@ -93,4 +84,5 @@ This feature is designed for early-career technical job seekers who are navigati
 
 > What you used AI for on this assignment, if anything. Write "none" if you did not use any.
 
-*AI was used to polish responses which I initially drafted responses for. Final output was reviewed by me to ensure it accurately reflects my thoughts*
+*AI was used to polish responses which I initially drafted responses for. It was also used to reduce word count for specific sections to preserve the main idea of the spec while keeping word count close to the limit.
+At the end Final output was reviewed by me to ensure it accurately reflects my thoughts*
