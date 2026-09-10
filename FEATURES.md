@@ -93,4 +93,4 @@ This feature is designed for early-career technical job seekers who are navigati
 
 > What you used AI for on this assignment, if anything. Write "none" if you did not use any.
 
-*AI was used to polish responses which I initially drafted responses for. Final output was reviewed by me to ensure it answers the question*
+*AI was used to polish responses which I initially drafted responses for. Final output was reviewed by me to ensure it accurately reflects my thoughts*
